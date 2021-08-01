@@ -1,0 +1,17 @@
+Criar endpoint para user:
+Listar usuários (GET)
+Criar usuário (POST)
+Modificar usuários (PUT)
+Remover usuários (DELETE)
+
+não esquecer
+//VARIÁVEIS A SEREM CRIADAS
+const express= require('express')
+const app = express()
+const port = 3000
+
+//CHAMANDO E TESTANDO AS VARIAVEIS
+app.get(('/'),//primeiro a porta (req, res) => //depois a função res.send('bla bla'))
+app.listen(port,//primeiro a porta () => //depois a função console.log()//depois o metódo para mostrar que a porta está funcionado)
+
+>>>>>>>>>>POSTMAN<<<<<<<<<
