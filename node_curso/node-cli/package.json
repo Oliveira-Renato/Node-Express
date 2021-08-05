@@ -1,0 +1,19 @@
+{
+  "name": "procura-arquivos-cli",
+  "version": "1.0.0",
+  "description": "Exemplo de CLI para procurar arquivos em uma pagina",
+  "preferGlobal": true,
+  "bin": {
+    "procura-arquivos": "./bin/procura-arquivos-cli"
+  },
+  "files": [
+    "./bin"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Renato Oliveira",
+  "license": "MIT"
+}
